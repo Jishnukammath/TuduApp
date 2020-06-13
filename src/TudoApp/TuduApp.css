@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color:#056679;
+    font-family: sans-serif;
+}
+.Tudu-container{
+   
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+   
+
+}
+.input-section{
+    background-color:#055565;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 6px 9px #464444;;
+  
+}
+.input::placeholder{
+    color: #056679;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
+.input-section input{
+    border-radius: 5px ;
+    border: 1px solid  rgb(134, 123, 123);
+    width: 100%;;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+    color: #83b5bf;
+}
+ul li{
+    list-style: none;
+    background-color:#055565;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #796a6a;
+    box-shadow: 0 4px 6px #464444;
+    display: flex;
+}
+ul{
+    padding: 0;
+    text-align: left;
+   
+
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
